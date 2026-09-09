@@ -86,7 +86,7 @@ function Projects({ darkMode }) {
         "EmailJS",
       ],
       github: "https://github.com/shaquib132/portfolio",
-      demo: "https://YOUR-PORTFOLIO.netlify.app",
+      demo: "https://portfolio-shaquib.netlify.app/",
     },
     {
       id: 5,
@@ -94,8 +94,8 @@ function Projects({ darkMode }) {
       desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, magnam.",
       image: project1,
       tags: ["react", "Node.js", "MongoDb"],
-      github: "https://github.com/shaquib132/FixMyArea",
-      demo: "https://fix-my-area.netlify.app/",
+      github: "https://portfolio-shaquib.netlify.app/",
+      demo: "https://portfolio-shaquib.netlify.app/",
     },
   ];
   return (
