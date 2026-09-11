@@ -114,7 +114,7 @@ function Contact({ darkMode }) {
                 style={{
                   backgroundColor: darkMode ? "#374151" : "#f3f4f6",
                   borderColor: darkMode ? "#4b5563" : "#d1d5db",
-                  color: darkMode ? "white" : "#1f2937",
+                  // color: darkMode ? "white" : "#1f2937",
                 }}
               />
 
@@ -127,7 +127,7 @@ function Contact({ darkMode }) {
                 style={{
                   backgroundColor: darkMode ? "#374151" : "#f3f4f6",
                   borderColor: darkMode ? "#4b5563" : "#d1d5db",
-                  color: darkMode ? "white" : "#1f2937",
+                  // color: darkMode ? "white" : "#1f2937",
                 }}
               />
 
@@ -142,7 +142,7 @@ function Contact({ darkMode }) {
               style={{
                 backgroundColor: darkMode ? "#374151" : "#f3f4f6",
                 borderColor: darkMode ? "#4b5563" : "#d1d5db",
-                color: darkMode ? "white" : "#1f2937",
+                // color: darkMode ? "white" : "#1f2937",
               }}
             />
 
@@ -154,7 +154,7 @@ function Contact({ darkMode }) {
               style={{
                 backgroundColor: darkMode ? "#374151" : "#f3f4f6",
                 borderColor: darkMode ? "#4b5563" : "#d1d5db",
-                color: darkMode ? "white" : "#1f2937",
+                // color: darkMode ? "white" : "#1f2937",
               }}
             />
 
@@ -167,7 +167,8 @@ function Contact({ darkMode }) {
               style={{
                 backgroundColor: darkMode ? "#374151" : "#f3f4f6",
                 borderColor: darkMode ? "#4b5563" : "#d1d5db",
-                color: darkMode ? "white" : "#1f2937",
+                // color: darkMode ? "white" : "#1f2937",
+                
               }}
             />
 

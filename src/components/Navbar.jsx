@@ -50,7 +50,7 @@ function Navbar({ darkMode, toogleDarkMode }) {
         transition={{ duration: 0.5 }}
       >
         <div className="flex items-center justify-between w-full space-x-6 lg:space-x-8">
-          {/* Logo */}
+          
           <motion.a
             href="/"
             whileHover={{ scale: 1.05 }}
@@ -61,7 +61,7 @@ function Navbar({ darkMode, toogleDarkMode }) {
             </span>
           </motion.a>
 
-          {/* Navigation */}
+          
           <div className=" hidden lg:flex items-center space-x-6">
             {navItem.map((item) => (
               <a
@@ -91,7 +91,7 @@ function Navbar({ darkMode, toogleDarkMode }) {
             ))}
           </div>
           <div className="flex items-center space-x-2">
-            {/* {dark mode toggle} */}
+            
             <motion.button
               className={`p-2 rounded-full ${darkMode ? "bg-gray-700 " : "bg-gray-200"} transition-colors`}
               aria-label={
@@ -116,7 +116,7 @@ function Navbar({ darkMode, toogleDarkMode }) {
             >
               Hire Me
             </motion.a>
-            {/* mobile menu button */}
+            
             <div className="flex lg:hidden items-center space-x-4 px-2">
               <motion.button
                 whileTap={{ scale: 0.9 }}

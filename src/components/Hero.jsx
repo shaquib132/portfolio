@@ -11,7 +11,7 @@ function Hero({ darkMode }) {
     { icon: linkdin, alt: "Linkdin", link:"https://www.linkedin.com/in/mohdshaquibansari/" },
     { icon: github, alt: "Git Hub" , link:"https://github.com/shaquib132"},
     { icon: leetcode, alt: "Leet Code" , link:"https://leetcode.com/u/shaquib132/"},
-    { icon: gmail, alt: "Gmail" , link: "shaquib132@gmail.com" },
+    { icon: gmail, alt: "Gmail" , link: "#contact" },
   ];
   const darkTheme = {
     textPrimary: "text-white",
