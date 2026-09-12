@@ -3,7 +3,8 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import FixMyArea from "../assets/fixmyareaProject.png";
 import findyourstay from "../assets/findyourstay.png";
 import portfolio from "../assets/portfolioProject.png";
-import interviewIQ from "../assets/interviewIq.png"
+import interviewIQ from "../assets/interviewIq.png";
+import tictactoe from "../assets/tictactoe.png"
 function Projects({ darkMode }) {
   const projects = [
     {
@@ -51,7 +52,7 @@ function Projects({ darkMode }) {
       github: "https://github.com/shaquib132/FixMyArea",
       demo: "https://fix-my-area.netlify.app/",
     },
-    
+
     {
       id: 3,
       title: "InterviewIQ.AI",
@@ -90,12 +91,18 @@ function Projects({ darkMode }) {
     },
     {
       id: 5,
-      title: "Ecommerce platform",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, magnam.",
-      image: project1,
-      tags: ["react", "Node.js", "MongoDb"],
-      github: "https://portfolio-shaquib.netlify.app/",
-      demo: "https://portfolio-shaquib.netlify.app/",
+      title: "Tic Tac Toe",
+      desc: "A fun and interactive Tic Tac Toe game built with React, featuring responsive design, win and draw detection, reset and new game functionality, and interactive sound effects.",
+      image: tictactoe,
+      tags: [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "Responsive Design",
+        "Game Logic",
+      ],
+      github: "https://github.com/shaquib132/TicTacToe",
+      demo: "https://tictactoe-shaquib.netlify.app/",
     },
   ];
   return (
