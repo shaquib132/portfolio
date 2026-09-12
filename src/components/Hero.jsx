@@ -74,7 +74,7 @@ function Hero({ darkMode }) {
               ideas into scalable digital experiences using React, Node.js,
               Express, and MongoDB.
             </p>
-            {/* Buttons */}
+            
             <div className="w-full pt-4 sm:pt-6 ">
               <div
                 className="flex flex-col sm:flex-row justify-center lg:justify-start gap-3 sm:gap-4"
