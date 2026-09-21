@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import contactImg from "../assets/contact.png";
+import contactImg from "../assets/optimized/contact.webp";
 
 function Contact({ darkMode }) {
   const form = useRef();

@@ -1,10 +1,11 @@
 import project1 from "../assets/instagra.png";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import FixMyArea from "../assets/fixmyareaProject.png";
-import findyourstay from "../assets/findyourstay.png";
-import portfolio from "../assets/portfolioProject.png";
-import interviewIQ from "../assets/interviewIq.png";
-import tictactoe from "../assets/tictactoe.png"
+import FixMyArea from "../assets/optimized/fixmyareaProject.webp";
+import findyourstay from "../assets/optimized/findyourstay.webp";
+import portfolio from "../assets/optimized/portfolioProject.webp";
+import interviewIQ from "../assets/optimized/interviewIq.webp";
+import tictactoe from "../assets/optimized/tictactoe.webp";
+import digitalhero from "../assets/optimized/digitalhero.webp"
 function Projects({ darkMode }) {
   const projects = [
     {
@@ -33,6 +34,25 @@ function Projects({ darkMode }) {
     },
     {
       id: 2,
+      title: "Digital Heroes Assessment Project",
+      desc: "A full-stack web application developed as part of the Digital Heroes technical assessment. The project includes user authentication, role-based functionality, charity management, subscriptions, draw management, scoring, winner management, and an admin dashboard. Built with a responsive UI and RESTful backend APIs, with MongoDB Atlas used for data management.",
+      image: digitalhero,
+      tags: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "MongoDB Atlas",
+        "REST API",
+        "JWT",
+        "Bootstrap",
+        "JavaScript",
+      ],
+      github: "https://github.com/shaquib132/digitalhero",
+      demo: "https://assement1-hazel.vercel.app",
+    },
+    {
+      id: 3,
       title: "FixMyArea",
       desc: "A full-stack civic reporting platform where users can report local issues with images, videos, GPS location, and witness details while authorities manage and track complaints.",
       image: FixMyArea,
@@ -54,7 +74,7 @@ function Projects({ darkMode }) {
     },
 
     {
-      id: 3,
+      id: 4,
       title: "InterviewIQ.AI",
       desc: "An AI-powered smart interview platform that helps users practice role-based mock interviews with follow-up questions, adaptive difficulty, real-time feedback, and performance evaluation.",
       image: interviewIQ,
@@ -72,7 +92,7 @@ function Projects({ darkMode }) {
       demo: "https://YOUR-INTERVIEWIQ-SITE.netlify.app",
     },
     {
-      id: 4,
+      id: 5,
       title: "Personal Portfolio",
       desc: "A modern, responsive personal portfolio website to showcase my skills, projects, and experience as a Full Stack MERN Developer. Designed with a clean UI, smooth animations, and a professional look.",
       image: portfolio,
@@ -90,7 +110,7 @@ function Projects({ darkMode }) {
       demo: "https://portfolio-shaquib.netlify.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Tic Tac Toe",
       desc: "A fun and interactive Tic Tac Toe game built with React, featuring responsive design, win and draw detection, reset and new game functionality, and interactive sound effects.",
       image: tictactoe,

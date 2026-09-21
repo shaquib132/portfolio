@@ -1,17 +1,17 @@
-import linkdin from "../assets/linkdin.png";
-import gmail from "../assets/gmail.png"
-import github from "../assets/github.png";
-import leetcode from "../assets/leetcode.png";
+import linkdin from "../assets/optimized/linkdin.webp";
+import whatsapp from "../assets/optimized/whatsapp.webp"
+import github from "../assets/optimized/github.webp";
+import leetcode from "../assets/optimized/leetcode.webp";
 import CV from "../assets/shaquib_ansari_resume.pdf";
 import { DownloadIcon, Mail } from "lucide-react";
-import hero from "../assets/hero.png";
-import hi from "../assets/hi.png";
+import hero from "../assets/optimized/hero.webp";
+import hi from "../assets/optimized/hi.webp";
 function Hero({ darkMode }) {
   const socialIcons = [
     { icon: linkdin, alt: "Linkdin", link:"https://www.linkedin.com/in/mohdshaquibansari/" },
     { icon: github, alt: "Git Hub" , link:"https://github.com/shaquib132"},
     { icon: leetcode, alt: "Leet Code" , link:"https://leetcode.com/u/shaquib132/"},
-    { icon: gmail, alt: "Gmail" , link: "#contact" },
+    { icon: whatsapp, alt: "whatsapp" , link: "https://wa.me/+918178789061" },
   ];
   const darkTheme = {
     textPrimary: "text-white",

@@ -1,4 +1,4 @@
-import about from "../assets/withlaptop.png";
+import about from "../assets/optimized/withlaptop.webp";
 
 function About({ darkMode }) {
   return (
@@ -99,7 +99,7 @@ function About({ darkMode }) {
               data-aos="zoom-in"
               data-aos-delay="750"
             >
-              <h3 className="text-2xl font-bold text-orange-500">5+</h3>
+              <h3 className="text-2xl font-bold text-orange-500">10+</h3>
               <div
                 className={`text-xs sm:text-sm lg:text-base  ${darkMode ? "text-gray-300" : "text-gray-700"}`}
               >
