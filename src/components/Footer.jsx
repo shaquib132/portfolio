@@ -1,4 +1,4 @@
-import { FaGithub, FaHeart, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaHeart, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 function Footer({ darkMode }) {
@@ -83,6 +83,19 @@ function Footer({ darkMode }) {
               }}
             >
               <SiLeetcode />
+            </a>
+            <a
+              href="https://wa.me/+918178789061"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white"
+              style={{
+                backgroundColor: darkMode ? "#374151" : "#e5e7eb",
+                color: darkMode ? "#ffffff" : "#374151",
+              }}
+            >
+              <FaWhatsapp />
             </a>
 
           </div>
